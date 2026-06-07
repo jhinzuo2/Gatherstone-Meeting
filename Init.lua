@@ -111,9 +111,9 @@ Meeting.Categories = {
             },
             {
                 key = "FH",
-                name = "Frostmane Hold",
+                name = "Frostmane Hollow",
                 minLevel = 13,
-                match = { "霜鬃", "szg", "fh", "frostmane" },
+                match = { "霜鬃", "szg", "fh", "frostmane", "fmh" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },
             {
@@ -125,7 +125,7 @@ Meeting.Categories = {
             },
             {
                 key = "DM",
-                name = "Deadmines",
+                name = "The Deadmines",
                 minLevel = 17,
                 match = { "死矿", "sw", "dm", "deadmines" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
@@ -153,30 +153,30 @@ Meeting.Categories = {
             },
             {
                 key = "DR",
-                name = "Dragonmaw Garrison",
+                name = "Dragonmaw Retreat",
                 minLevel = 27,
-                match = { "龙喉","格瑞姆巴托", "dragonmaw", "dr" },
+                match = { "龙喉","格瑞姆巴托", "dragonmaw", "dr", "dmr" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },	
             {
                 key = "WINDCAN",
-                name = "Windhorn Ravine",
+                name = "Windhorn Canyon",
                 minLevel = 27,
-                match = { "风角","峡谷","牛头本", "windhorn", "windcan" },
+                match = { "风角","峡谷","牛头本", "windhorn", "windcan", "whc" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },				
             {
                 key = "SMGY",
                 name = "Scarlet Monastery Graveyard",
                 minLevel = 27,
-                match = { "血色", "sm", "scarlet" },
+                match = { "血色", "sm", "scarlet", "smgy" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },
             {
                 key = "SMLIB",
                 name = "Scarlet Monastery Library",
                 minLevel = 28,
-                match = { "血色", "sm", "scarlet" },
+                match = { "血色", "sm", "scarlet", "smlib", "lib" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },
             {
@@ -195,7 +195,7 @@ Meeting.Categories = {
             },
             {
                 key = "TCG",
-                name = "Crescent Grove",
+                name = "The Crescent Grove",
                 minLevel = 32,
                 match = { "新月", "cg", "crescent" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
@@ -204,7 +204,7 @@ Meeting.Categories = {
                 key = "SMARMORY",
                 name = "Scarlet Monastery Armory",
                 minLevel = 32,
-                match = { "血色", "sm", "scarlet" },
+                match = { "血色", "sm", "scarlet", "smarms", "arms" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },
             {
@@ -218,7 +218,7 @@ Meeting.Categories = {
                 key = "SMCATH",
                 name = "Scarlet Monastery Cathedral",
                 minLevel = 35,
-                match = { "血色","教堂", "sm", "cath" },
+                match = { "血色","教堂", "sm", "cath", "smcath" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },
             {
@@ -253,7 +253,7 @@ Meeting.Categories = {
                 key = "MARA",
                 name = "Maraudon",
                 minLevel = 45,
-                match = { "玛拉顿", "mara" },
+                match = { "玛拉顿", "mara", "princess" },
 				nomatch = {}  -- 新增排除关键词 by 武藤纯子酱 2025.9.22
             },
             {
